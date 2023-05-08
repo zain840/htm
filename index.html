@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+        * {
+          font-family: "DM Serif Display", serif;
+        }
+
+        body {
+          background: url(./country_image_Canada\ \(1\).jpg);
+          background-size: cover;
+        }
+        nav {
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+
+        }
+        nav a {
+          font-size: 3rem;
+          padding: 1.5rem 10rem 0px 0rem;
+          text-decoration: none;
+          color: black;
+        }
+        nav a:hover{
+            color: white;
+        }
+        .content {
+          position: absolute;
+          width: 90%;
+          height: 60%;
+          background-color: transparent;
+          display: flex;
+          justify-content: end;
+          align-items: end;
+          font-size: 3rem;
+          top: 9rem;
+        }
+        .content > h1 {
+            left: 31rem;
+       position: relative;
+    top: 4rem;
+    line-height: 5rem;
+    letter-spacing: 17px;
+    z-index: 101;
+    color: white;
+    font-size: 8rem;
+        }
+        .content > h1 > p {
+          display: flex;
+          justify-content: end;
+          width: 100%;
+          height: 50px;
+          font-size: 40px;
+          line-height: 0.1rem;
+          z-index: 100;
+          color: white;
+        }
+        .curve {
+          margin-bottom: -7rem;
+          margin-left: 2rem;
+          opacity: 0.6;
+          z-index: 1;
+        }
+        .leaf {
+          position: absolute;
+          right: 37rem;
+          top: 16rem;
+        }
+        .plane {
+          position: absolute;
+          top: 8rem;
+          right: 4rem;
+          z-index: 2;
+        }
+        @media (min-width:360px) and (max-width: 680px){
+            nav a {
+                font-size: 1.8rem;
+                padding: 2rem 2rem 0px 1rem;
+          }
+          .content > h1 {
+            left: 11rem;
+            position: absolute;
+            top: 24rem;
+            line-height: 86px;
+            letter-spacing: 15px;
+            z-index: 101;
+            color: white;
+            font-size: 6.5rem;
+          }
+          .plane{
+            position: absolute;
+            top: 11rem;
+            right: -4rem;
+          }
+          .leaf{
+            position: absolute;
+            right: 7rem;
+            top: 41rem;
+          }
+        }
+          @media (min-width:480px) and (max-width: 1280px){
+            nav a {
+                font-size: 1.8rem;
+                padding: 2rem 2rem 0px 1rem;
+            }
+           .content > h1 {
+            left: 35rem;
+            position: relative;
+            top: 4rem;
+            line-height: 5rem;
+            letter-spacing: 17px;
+            z-index: 101;
+            olor: white;
+          font-size: 7rem;
+             }
+           .plane{
+                position: absolute;
+                top: 11rem;
+                right: -4rem;
+          }
+           .leaf{
+            position: absolute;
+            right: 7rem;
+            top: 41rem;
+          }
+        }
+          @media (min-width:1280px){
+            nav a {
+                font-size: 2.5rem;
+                padding: 2rem 2rem 0px 1rem;
+            }
+           .content > h1 {
+            left: 31rem;
+            position: relative;
+            top: 5rem;
+            line-height: 7rem;
+            letter-spacing: 20px;
+            z-index: 101;
+            color: white;
+            font-size: 8rem;
+            }
+           .plane{
+                position: absolute;
+                top: 11rem;
+                right: -4rem;
+            }
+           .leaf{
+            position: absolute;
+            right: 18rem;
+            top: 40rem;
+           }
+        }
+           
+        
+    
+  </style>
+  <body>
+    <div class="page1">
+      <div class="more">
+        <nav>
+          <a href="">Home</a>
+          <a href="">Destination</a>
+          <a href="">About Us</a>
+          <a href="">Contact Us</a>
+        </nav>
+        <div class="content">
+          <img class="plane" src="./plane.png" alt="" />
+          <img class="leaf" src="./leaf.png" alt="" />
+          <h1>
+            Canada Travels
+            <p>& Tourism</p>
+          </h1>
+          <img class="curve" src="./curve.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
